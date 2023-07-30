@@ -1,0 +1,69 @@
+.banner-main-container{
+    padding: 50px 50px 0px 50px;
+    /* background: linear-gradient(90deg, rgba(251,140,163,1) 0%, rgba(255,255,255,1) 100%); */
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background-design_361591-1244.jpg?w=1380&t=st=1690698183~exp=1690698783~hmac=20aebdec02dfef876333c4e62aa6730a5957d9a559c7b2d1fbdcdf4e4feb56e5");
+    background-size: cover;
+    min-width: 98vw;
+}
+.banner-bg-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid 1px black; */
+
+}
+.banner-text-container{
+    width: 30%;
+    color: #151619;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text-container>div{
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner-heading-container{
+    font-size: 25px;
+    line-height: 65px;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-image-container{
+    width:40%;
+    /* border: solid 1px black; */
+    height: 650px;
+}
+.banner-image-container>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.banner-paragraph-container{
+    font-weight: 200;
+}
+.banner-btn-container{
+  display: flex; 
+  align-items: center;
+}
+.banner-btn{
+    width: 35%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    background-color: #DE2D37;
+    border-radius: 50px;
+    color: white;
+    height: 50px;
+}
+.banner-video-btn{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}

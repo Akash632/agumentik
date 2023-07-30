@@ -1,0 +1,33 @@
+.navbar-main-container{
+    display: flex;
+    justify-content: center;
+}
+.navbar-bg-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
+.navbar-icon-container{
+    width: 12%;
+    color: #DE2D37;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.navbar-options-container{
+    background-color: #DE2D37;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    color: white;
+    clip-path: polygon(5% 100%, 0% 0%, 100% 0%, 94% 100%);
+}
+.navbar-right-container{
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+}
